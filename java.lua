@@ -8,6 +8,7 @@ return {
     'mfussenegger/nvim-dap',
     'neovim/nvim-lspconfig',
     'mfussenegger/nvim-jdtls',
+    'mason-org/mason.nvim',
   },
   config = function()
     -- Carrega a configuração principal do nvim-java
@@ -18,3 +19,4 @@ return {
     require('lspconfig').jdtls.setup({})
   end,
 }
+
